@@ -1,0 +1,28 @@
+/* */
+body{
+    font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    font-size: 16px;
+    background-color: rgb(7, 7, 27);
+    color: white;
+}
+
+h1{
+	text-align: center;
+	border-radius: 20px;
+	background-color: aliceblue;
+	color: rgb(10, 7, 31);
+}
+
+a{
+    color: rgb(100, 96, 128)
+}
+
+h2{
+    font-size:large;
+}
+
+p{
+    font-size: small;
+    font-style: italic;
+}
