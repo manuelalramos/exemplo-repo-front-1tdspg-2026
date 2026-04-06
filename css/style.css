@@ -7,15 +7,31 @@ body{
     color: white;
 }
 
+header{
+    margin: 0 auto;
+    width: 70%;
+}
+
 h1{
-	text-align: center;
+    text-align: center;
+	width: 90%;
 	border-radius: 20px;
 	background-color: aliceblue;
 	color: rgb(10, 7, 31);
 }
 
+nav ul{
+    width: 70%;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+
+}
+
 a{
-    color: rgb(100, 96, 128)
+    color: rgb(100, 96, 128);
+    font-style: italic;
 }
 
 h2{
@@ -24,5 +40,4 @@ h2{
 
 p{
     font-size: small;
-    font-style: italic;
 }
