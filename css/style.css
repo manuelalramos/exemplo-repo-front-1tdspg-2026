@@ -20,24 +20,54 @@ h1{
 	color: rgb(10, 7, 31);
 }
 
-nav ul{
-    width: 70%;
+ul{
     list-style: none;
-    display: flex;
-    gap: 20px;
-    justify-content: space-between;
-
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: aliceblue;
+    text-align: center;
+    width: 90%;
+    border-radius: 10px;
+    
 }
 
-a{
-    color: rgb(100, 96, 128);
-    font-style: italic;
+ul li{
+    float: left;
+    margin-left: 13.5%;
+    
+}
+
+ul li a{
+    display: block;
+    color: rgb(10, 7, 31);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+ul li a:hover{
+    background-color: antiquewhite;
+}
+
+nav ul li a.active {
+  background-color: rgb(212, 185, 208);
+  font-weight: bold;
 }
 
 h2{
     font-size:large;
+    margin-left: 7%;
+    margin-top: 3%;
 }
 
 p{
     font-size: small;
+    margin-left: 7%;
+}
+
+.linkPagina{
+    margin-left: 7%;
+    color: gray;
 }
